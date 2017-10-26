@@ -1,0 +1,35 @@
+{
+  "name": "course-management-system",
+  "version": "1.0.0",
+  "description": "course management system using angularjs for frontend, expressjs and nodejs for backend, mysql for database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntduy96/course-management-system.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "angularjs",
+    "mysql"
+  ],
+  "author": "ntduy96",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ntduy96/course-management-system/issues"
+  },
+  "homepage": "https://github.com/ntduy96/course-management-system#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "errorhandler": "^1.5.0"
+  }
+}
