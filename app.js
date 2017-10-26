@@ -24,7 +24,9 @@ app.use(session({
   saveUninitialized: true
 }));
 
-
+// import routes
+var routes = require('./routes');
+app.use('/', routes);
 
 // run on express server
 app.listen(3000, function() {
