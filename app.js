@@ -24,7 +24,6 @@ app.use(session({
   saveUninitialized: true
 }));
 
-// import connection to mysql
 
 
 // run on express server
