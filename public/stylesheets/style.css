@@ -1,0 +1,9 @@
+body {
+  background-color: #f3f3f3;
+}
+
+.list-group-item .form-control {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
