@@ -13,6 +13,11 @@ function isLoggedIn(req, res, next) {
   }
 }
 
+// send angular application
+router.get('/', function(req, res) {
+  res.sendFile('index.html');
+});
+
 // process the signup form
 router.post('/signup', function(req, res) {
   var student = {
